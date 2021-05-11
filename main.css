@@ -3,3 +3,141 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color:hsl(0, 0%, 98%);
+  color:hsl(229, 6%, 66%);
+  width: 100%;
+  height: 100vh;
+}
+
+
+/* ******************** 
+Font Weights
+******************** */
+.light-text {
+  font-weight: 200;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+/* ******************** 
+Colors
+******************** */
+.red {
+  color: hsl(0, 78%, 62%);
+}
+
+.cyan {
+  color: hsl(180, 62%, 55%);
+}
+
+.orange {
+  color: hsl(34, 97%, 64%);
+}
+
+.blue {
+  color: hsl(212, 86%, 64%);
+}
+
+.dark-blue {
+  color: hsl(234, 12%, 34%);
+}
+
+.gray-blue {
+  color: hsl(229, 6%, 66%);
+}
+
+.light-gray {
+  color: hsl(0, 0%, 98%);
+}
+
+
+/* ******************** 
+Section: Cards
+******************** */
+.section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header {
+  margin: 40px 0;
+}
+
+.section-header h1 {
+  margin-bottom: 10px;
+}
+
+.cards {
+  margin: 20px 0;
+}
+
+.first-card,
+.second-card,
+.third-card,
+.fourth-card {
+  border-radius: 5px;
+  box-shadow:2px 2px 12px  hsl(229, 6%, 66%);
+  width: 235px;
+  height: 170px;
+  padding: 20px 20px;
+  margin-bottom: 30px;
+}
+
+.first-card {
+  border-top: 2px solid hsl(180, 62%, 55%);
+}
+
+.second-card {
+  border-top: 2px solid hsl(0, 78%, 62%);
+}
+
+.third-card {
+  border-top: 2px solid hsl(34, 97%, 64%);
+}
+
+.fourth-card {
+  border-top: 2px solid hsl(212, 86%, 64%)
+  ;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.icon img {
+  width: 40px;
+}
+
+
+/* ******************** 
+Media Query:
+Tablets
+******************** */
+@media (min-wdith: 768px) {
+
+}
+
+
+/* ******************** 
+Media Query: 
+Desktop
+******************** */
+@media (min-width: 1440px) {
+
+}
