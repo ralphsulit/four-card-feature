@@ -129,7 +129,53 @@ Section: Cards
 Media Query:
 Tablets
 ******************** */
-@media (min-wdith: 768px) {
+@media (min-width: 768px) {
+  /* ******************** 
+  Section: Cards
+  ******************** */
+  .section {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .section-header {
+    text-align: center;
+  }
+
+  .section-header h1 {
+    font-size: 30px;
+  }
+
+  .cards h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .cards h6 {
+    font-size: 13px;
+  }
+
+  .first-card,
+  .second-card,
+  .third-card,
+  .fourth-card {
+    border-radius: 5px;
+    box-shadow:2px 2px 12px hsl(229.6, 33.3%, 86.5%);
+    width: 350px;
+    height: 230px;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+  }
+  
+  .icon img {
+    width: 65px;
+  }
 
 }
 
