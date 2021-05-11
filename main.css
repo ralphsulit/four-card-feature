@@ -90,7 +90,7 @@ Section: Cards
 .third-card,
 .fourth-card {
   border-radius: 5px;
-  box-shadow:2px 2px 12px  hsl(229, 6%, 66%);
+  box-shadow:2px 2px 12px hsl(229.6, 33.3%, 86.5%);
   width: 235px;
   height: 170px;
   padding: 20px 20px;
